@@ -7,13 +7,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // Clacular edad
         edad()
+        // Tbla de multiplicar de forma ascendente y descendente
         tablaMultiplicar()
+         // Listado de estudiantes
         listado()
+        // Propiedades del vehiculo
         propiedades()
+        // Claculo del iba del 12 %
         iva()
+        // Cedula
         cedula()
     }
+
     fun edad(){
      val edad = 18
      val edad2 = 3
